@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <StackLayout>
+    <Label text="{{ keyboardStatus }}" class="title"/>
+    <TextField id="text" text="" hint="Click in me"/>
+    <Button id="btn" isEnabled="false" text="Close Keyboard" tap="closeKeyboard"/>
+  </StackLayout>
+</Page>
