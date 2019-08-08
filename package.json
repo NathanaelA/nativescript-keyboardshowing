@@ -1,6 +1,6 @@
 {
     "name": "nativescript-keyboardshowing",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Find out if keyboard is showing and fires events when keyboard shows or hides.",
     "main": "index.js",
     "typings": "index.d.ts",
