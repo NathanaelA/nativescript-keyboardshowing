@@ -9,7 +9,7 @@
 /* global android, UIKeyboardDidShowNotification, UIKeyboardDidHideNotification */
 
 
-var frame = require('ui/frame');
+var frame = require('tns-core-modules/ui/frame').Frame;
 
 function trackAndroidKeyboard() {
     if (!frame.topmost()) { setTimeout(trackAndroidKeyboard, 100); return; }
